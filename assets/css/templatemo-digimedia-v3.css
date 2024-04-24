@@ -233,7 +233,7 @@ header
 */
 
 .pre-header {
-  background-color: #efefef;
+  background-color: #013466;
   height: 60px;
   padding: 15px 0px;
 }
@@ -247,13 +247,13 @@ header
 }
 
 .pre-header ul.info li a {
-  color: #afafaf;
+  color: #fff;
   font-size: 14px;
   transition: all .3s;
 }
 
 .pre-header ul.info li a:hover {
-  color: #013466;
+  color: #7bbdff;
 }
 
 .pre-header ul.info li a i {
@@ -656,6 +656,9 @@ header
 }
 
 @media (max-width: 767px) {
+  .pre-header{
+    display: none;
+  }
   .pre-header ul.info li:last-child {
     display: none;
   }
